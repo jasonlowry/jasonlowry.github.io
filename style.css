@@ -20,6 +20,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 header {
+    position: relative;
     display: table;
     margin: 0;
     padding: 0;
