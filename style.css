@@ -72,3 +72,9 @@ section {
 .gallery a {
 padding: .3em;
 }
+
+.gallerythmb {
+	width: 30%;
+	min-width: 150px;
+	max-width: 250px;
+}
