@@ -80,3 +80,67 @@ padding: .3em;
 	min-width: 150px;
 	max-width: 250px;
 }
+.arrow {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?cu0gtn');
+	src:url('fonts/icomoon.eot?#iefixcu0gtn') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?cu0gtn') format('truetype'),
+		url('fonts/icomoon.woff?cu0gtn') format('woff'),
+		url('fonts/icomoon.svg?cu0gtn#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home3:before {
+	content: "\e902";
+}
+.icon-menu:before {
+	content: "\e9bd";
+}
+.icon-grin:before {
+	content: "\e9e9";
+}
+.icon-cool:before {
+	content: "\e9eb";
+}
+.icon-arrow-right:before {
+	content: "\ea34";
+}
+.icon-arrow-down:before {
+	content: "\ea36";
+}
+.icon-arrow-right2:before {
+	content: "\ea3c";
+}
+.icon-arrow-down2:before {
+	content: "\ea3e";
+}
+.icon-circle-right:before {
+	content: "\ea42";
+}
+.icon-circle-down:before {
+	content: "\ea43";
+}
+.icon-facebook2:before {
+	content: "\ea8d";
+}
